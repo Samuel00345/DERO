@@ -1,1 +1,31 @@
-<!-- mapa.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DERO - Mapa de la Región Orinoquía</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="fondo-diccionario">
+  <div class="contenido">
+    <h1>Explora la Región Orinoquía</h1>
+    <p>Haz clic en un departamento para conocer sus palabras representativas.</p>
+    
+    <div class="mapa-container">
+      <img src="imagenes/mapa/Mapa Orinoco.png" usemap="#mapa-orinoquia" alt="Mapa de la Región Orinoquía" class="mapa-img">
+
+      <map name="mapa-orinoquia">
+        <!-- Coordenadas aproximadas. Ajustables según el tamaño real de la imagen -->
+        <area shape="rect" coords="160,80,260,180" href="departamentos/departamento-vichada.html" alt="Vichada">
+        <area shape="rect" coords="100,180,200,280" href="departamentos/departamento-meta.html" alt="Meta">
+        <area shape="rect" coords="40,120,140,220" href="departamentos/departamento-casanare.html" alt="Casanare">
+        <area shape="rect" coords="0,60,100,160" href="departamentos/departamento-arauca.html" alt="Arauca">
+      </map>
+    </div>
+
+    <nav>
+      <a href="index.html">← Volver al inicio</a>
+    </nav>
+  </div>
+</body>
+</html><!-- mapa.html -->
